@@ -1,3 +1,7 @@
+from cupshelpers import Printer
+from regex import P
+
+
 a=10
 b=10
 print(id(b))
@@ -31,7 +35,7 @@ for i in rg:
 
 
 str = "hello world how are you"
-print("wo" in str)
+print("wo" in str) 
 if "wo" in str :
     print("welcome")
 
@@ -41,3 +45,10 @@ if "wo" in str :
 x=10
 y=10
 print(x is not y)
+
+list=[10,20,30,40,50]
+print(type(list))
+tu =tuple(list)
+print(type(tu))
+
+print(tu)
