@@ -6,14 +6,38 @@ print(id(a))
 y=a
 print(id(y))
 
-# 
+# string
 
 str="hello world"
 print(str)
 print(type(str))
+
+# list
 list =[10,20,30,"vishal"]
 print(type(list))
 print(list[1])
-
+# tuple
 tu =(10,20)
 print(type(tu))
+
+# range
+rg = range(5)
+for i in rg:
+    print(i)
+
+
+
+# membership operator
+
+
+str = "hello world how are you"
+print("wo" in str)
+if "wo" in str :
+    print("welcome")
+
+
+# identity operator
+
+x=10
+y=10
+print(x is not y)
